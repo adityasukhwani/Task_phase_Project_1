@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+</head>
+<body>
+    <h2>Create an account</h2>
+    <div>Already have an account? <a href="Signin.html">Sign In</a></div>
+    <br>
+    <form action="backend.php">
+        <div>
+            Email Address: <input type="text" name="emailID" placeholder="name@example.com">
+        </div>
+        <br>
+        <div>
+            First Name: <input type="text" name="first_name" placeholder="Enter first name">
+            Last Name: <input type="text" name="last_name" placeholder="Enter last name">
+        </div>
+        <br>
+            <div>
+              Password:
+             <input type="password" name="password" placeholder="Enter password">
+            </div>
+        <br>
+        <div>
+            Date of Birth: <input type="date" name="dateofbirth">
+        </div>
+        <br>
+        <div>
+            Gender:  Male<input type="radio" name="mygender" > Female<input type="radio" name="mygender" >
+            Others<input type="radio" name="mygender" >
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="SUBMIT NOW">
+
+            <input type="reset" value="RESET NOW">
+        </div>
+    </form>
+</body>
+</html>
